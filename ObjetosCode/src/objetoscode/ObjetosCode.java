@@ -38,31 +38,31 @@ class ControlSistema{
           break;
 
         case 2:
-            // Le pasas el valor de elPokemon para ser usado dentro de alimentacion.
+            
             System.out.println("Ingrese la medida de un lado:");   
             Cuadrado a = new Cuadrado();
             a.area();
           break;
             
         case 3:
-            // Le pasas el valor de elPokemon para ser usado dentro de alimentacion.
+            
             System.out.println("Ingrese la medida de la aristas");   
             Cubo cb = new Cubo();
             cb.calcularVolumen();
            break;
             
         case 4:
-            // Le pasas el valor de elPokemon para ser usado dentro de alimentacion.
+            
             System.out.println("Ingrese la medida un lado");   
             Cubo cp = new Cubo();
             cp.calcularPerimetro();
             break;     
             
        case 5:
-            // Le pasas el valor de elPokemon para ser usado dentro de alimentacion.            
+            
             System.exit(0);               
        default:
-            // Le pasas el valor de elPokemon para ser usado dentro de alimentacion.
+            
             System.out.println("Error de seleccion");              
             break;            
             
